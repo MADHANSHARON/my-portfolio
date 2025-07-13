@@ -36,12 +36,13 @@ function Hero() {
                 <button>Projects</button>
               </Link>
               <a
-                href="/madhan-resume.pdf"
+                 href={`${import.meta.env.BASE_URL}madhan-resume.pdf`}
                 target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button>Resume</button>
-              </a>
+                 rel="noopener noreferrer"
+>
+  <button>Resume</button>
+</a>
+
               <a
                 href="https://github.com/MadhanSharon"
                 target="_blank"
