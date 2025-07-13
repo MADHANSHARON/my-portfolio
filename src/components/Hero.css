@@ -95,3 +95,63 @@
 .contact-details a:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .hero-card {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+@media (max-width: 768px) {
+  .hero-left img {
+    display: none;
+  }
+}
+.contact-btn{
+  display: none;
+}
+
+  .hero-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+     background-image: url('/public/madhan1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(4px) brightness(0.9);
+    z-index: 0;
+  }
+
+  .hero-right {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    margin: 40px 20px;
+    backdrop-filter: blur(6px);
+    z-index:1;
+   
+  }
+  
+  .hero-right h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hero-right p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .buttons {
+    align-items: center;
+  }
+
+  .buttons button,a {
+    width: 100%;
+    font-size: 14px;
+  }
+}

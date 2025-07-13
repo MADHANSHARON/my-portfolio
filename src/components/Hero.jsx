@@ -59,7 +59,7 @@ function Hero() {
                 <button>LinkedIn</button>
               </a>
               {/* ✅ Last button */}
-              <button onClick={scrollToContact}>Contact</button>
+              <button className='contact-btn'  onClick={scrollToContact}>Contact</button>
             </div>
           </div>
         </div>
