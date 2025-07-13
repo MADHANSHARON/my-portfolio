@@ -9,16 +9,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60%;            /* This will match the narrower look */
-  max-width: 1000px;     /* Slightly less wide */
-  min-height: auto;      /* Allow natural height */
-  padding: 1rem;         /* Compact padding */
+  width: 80%;           /* ✅ Wider card */
+  max-width: 1200px;    /* ✅ Max width */
+  min-height: 300px;    /* ✅ Shorter height */
+  padding: 1.5rem;
   background: #fff;
   border-radius: 1rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   margin: 2rem auto;
 }
-
 
 .hero-left img {
   width: 250px;
