@@ -2,95 +2,65 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: #ffffff;
-  padding: 40px;
+  padding: 2rem;
 }
 
 .hero-card {
   display: flex;
-  width: 75%;
-  background: white;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
-}
-
-.hero-left {
-  flex: 1;
-  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;           /* ✅ Wider card */
+  max-width: 1200px;    /* ✅ Max width */
+  min-height: 300px;    /* ✅ Shorter height */
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
 }
 
 .hero-left img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+  width: 250px;
+  height: auto;
+  border-radius: 0.75rem;
 }
 
 .hero-right {
   flex: 1;
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-left: 2rem;
 }
 
 .hero-right h1 {
-  font-size: 50px;
-  margin-bottom: 15px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .hero-right p {
-  font-size: 25px;
-  line-height: 1.6;
-  margin-bottom: 25px;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
 }
 
 .buttons {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
 .buttons button {
-  width: 80%;
-  padding: 12px;
-  font-size: 16px;
-  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
   background: transparent;
-  border: 2px solid black;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background 0.2s, color 0.2s;
 }
 
 .buttons button:hover {
-  background: black;
-  color: white;
+  background: #000;
+  color: #fff;
 }
+
 .contact-details {
-  margin-top: 50px;
-  padding: 40px 20px;
-  background: #f7f7f7;
+  margin-top: 3rem;
   text-align: center;
-}
-
-.contact-details h2 {
-  font-size: 28px;
-  margin-bottom: 15px;
-}
-
-.contact-details p {
-  font-size: 18px;
-  margin: 8px 0;
-  color: #333;
-}
-
-.contact-details a {
-  color: #0073e6;
-  text-decoration: none;
-}
-
-.contact-details a:hover {
-  text-decoration: underline;
 }
