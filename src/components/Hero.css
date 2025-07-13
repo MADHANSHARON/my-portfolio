@@ -9,8 +9,8 @@
 
 .hero-card {
   display: flex;
-  width: 70%;
-  height: 60vh;
+  width: 60%;
+  height: 65vh;
   background: white;
   border-radius: 30px;
   overflow: hidden;
