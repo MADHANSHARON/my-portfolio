@@ -9,13 +9,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;           /* ✅ Wider card */
-  max-width: 1200px;    /* ✅ Max width */
-  min-height: 300px;    /* ✅ Shorter height */
-  padding: 1.5rem;
+  width: 70%;           /* ✅ Narrower card */
+  max-width: 900px;     /* ✅ Less wide overall */
+  min-height: auto;     /* ✅ Allow it to shrink vertically */
+  padding: 1rem;        /* ✅ Less padding inside the card */
   background: #fff;
   border-radius: 1rem;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
   margin: 2rem auto;
 }
 
