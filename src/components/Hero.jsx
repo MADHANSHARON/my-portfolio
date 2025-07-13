@@ -1,7 +1,7 @@
 import { useRef,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Hero.css';
-import profile from '/madhan1.jpg';
+import profile from '../assets/madhan1.jpg';
 
 function Hero() {
   const contactRef = useRef(null);
