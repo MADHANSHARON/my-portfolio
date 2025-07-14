@@ -37,10 +37,28 @@
 
 .project-row {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center; /* ✅ Center items horizontally */
   gap: 30px;
-  width: 100%;
-  align-items: center;
+  width: 100%; /* ✅ Let it span full width */
+  max-width: 1100px; /* ✅ Optional: limits the row width */
+  margin: 0 auto; /* ✅ Centers the row inside the container */
+}
+
+.project-card {
+  flex: 1 1 calc(45% - 30px); /* ✅ Two per row with spacing */
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 25px 20px;
+  transition: transform 0.3s ease;
+}
+@media (max-width: 1000px) {
+  .project-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
