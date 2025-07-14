@@ -1,3 +1,4 @@
+/* ========= Projects Page ========== */
 .projects-page {
   padding: 60px 20px;
   background-color: #f9f9f9;
@@ -8,8 +9,25 @@
 .projects-page h2 {
   font-size: 2.8rem;
   margin-bottom: 30px;
+  color: #222;
 }
 
+/* ========= Section Title ========== */
+.segment-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #222;
+  text-align: left;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+}
+
+/* ========= Project Layout ========== */
 .project-container {
   display: flex;
   flex-direction: column;
@@ -25,3 +43,96 @@
   align-items: center;
 }
 
+@media (min-width: 768px) {
+  .project-row {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* ========= Project Card ========== */
+.project-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 25px 20px;
+  width: 100%;
+  max-width: 500px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #000;
+}
+
+.project-card-content p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* ========= Buttons ========== */
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.project-links a:hover {
+  background-color: #333;
+}
+
+/* ========= Mobile Styles ========== */
+@media (max-width: 768px) {
+  .projects-page {
+    padding: 40px 15px;
+  }
+
+  .projects-page h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .project-card {
+    padding: 20px 15px;
+  }
+
+  .project-card-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-card-content p {
+    font-size: 16px;
+  }
+
+  .project-links a {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .segment-title {
+    font-size: 1.4rem;
+    padding-left: 5px;
+  }
+}

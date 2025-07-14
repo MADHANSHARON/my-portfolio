@@ -50,7 +50,7 @@ function Projects() {
         <div className="project-card">
     <div className="project-card-content">
       <h3>University Portfolio</h3>
-      <p>A professional portfolio website built using React and Vite to showcase academic and project details.</p>
+      <p>A professional portfolio website built using React and Vite to show the information about the university.</p>
       <div className="project-links">
         <a href="https://madhansharon.github.io/University/" target="_blank" rel="noreferrer">Live Demo</a>
         <a href="https://github.com/MADHANSHARON/University/tree/main/src" target="_blank" rel="noreferrer">View Code</a>
