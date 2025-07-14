@@ -1,3 +1,4 @@
+/* ========== Base Styles ========== */
 .hero-wrapper {
   display: flex;
   justify-content: center;
@@ -69,6 +70,8 @@
   background: black;
   color: white;
 }
+
+/* ========== Contact Section ========== */
 .contact-details {
   margin-top: 50px;
   padding: 40px 20px;
@@ -95,22 +98,23 @@
 .contact-details a:hover {
   text-decoration: underline;
 }
-@media (max-width: 768px) {
+
+.contact-btn {
+  display: none;
+}
+
+/* ========== Media Queries ========== */
+
+/* 📱 Screens below 1500px */
+@media (max-width: 1300px) {
   .hero-card {
     flex-direction: column;
     width: 100%;
     height: 100vh;
     position: relative;
+    border-radius: 0;
     overflow: hidden;
   }
-@media (max-width: 768px) {
-  .hero-left img {
-    display: none;
-  }
-}
-.contact-btn{
-  display: none;
-}
 
   .hero-left {
     position: fixed;
@@ -118,12 +122,16 @@
     left: 0;
     width: 100%;
     height: 100vh;
-     background-image: url('/public/madhan1.jpg');
+    background-image: url('/public/madhan1.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     filter: blur(4px) brightness(0.9);
     z-index: 0;
+  }
+
+  .hero-left img {
+    display: none;
   }
 
   .hero-right {
@@ -132,10 +140,9 @@
     border-radius: 12px;
     margin: 40px 20px;
     backdrop-filter: blur(6px);
-    z-index:1;
-   
+    z-index: 1;
   }
-  
+
   .hero-right h1 {
     font-size: 28px;
     text-align: center;
@@ -150,8 +157,13 @@
     align-items: center;
   }
 
-  .buttons button,a {
+  .buttons button,
+  .buttons a {
     width: 100%;
     font-size: 14px;
   }
 }
+
+/* 📱 Screens below 900px */
+
+

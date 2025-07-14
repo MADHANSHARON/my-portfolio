@@ -25,35 +25,3 @@
   align-items: center;
 }
 
-@media (max-width: 768px) {
-  .projects-page {
-    padding: 40px 15px;
-  }
-
-  .projects-page h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-
-  .project-card {
-    padding: 20px 15px;
-  }
-
-  .project-card-content h3 {
-    font-size: 1.3rem;
-  }
-
-  .project-card-content p {
-    font-size: 16px;
-  }
-
-  .project-links a {
-    padding: 10px 20px;
-    font-size: 0.9rem;
-  }
-
-  .segment-title {
-    font-size: 1.4rem;
-    padding-left: 5px;
-  }
-}
