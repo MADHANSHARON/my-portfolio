@@ -15,7 +15,7 @@ function Projects() {
             <p>A MERN stack app that connects food donors with people to reduce food waste and hunger.</p>
             <div className="project-links">
               <a href="https://graceful-daifuku-b7fa7a.netlify.app/" target="_blank" rel="noreferrer">Live Demo</a>
-              <a href="https://github.com/MadhanSharon/food-donation-system" target="_blank" rel="noreferrer">View Code</a>
+              <a href="https://github.com/MadhanSharon/Food_waste_donation" target="_blank" rel="noreferrer">View Code</a>
             </div>
           </div>
         </div>
