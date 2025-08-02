@@ -36,7 +36,7 @@ function Hero() {
                 <button>Projects</button>
               </Link>
               <a
-  href={`${import.meta.env.BASE_URL}madhan-resume.pdf`}
+  href={`${import.meta.env.BASE_URL}Resume.pdf`}
   target="_blank"
   rel="noopener noreferrer"
 >
