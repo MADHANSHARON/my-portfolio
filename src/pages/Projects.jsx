@@ -25,8 +25,8 @@ function Projects() {
             <h3>Product Posting App</h3>
                <p>A full-stack MERN application where users can create and view products. Each product has a unique ID and route.</p>
             <div className="project-links">
-              <a href="https://madhan-login-app.netlify.app" target="_blank" rel="noreferrer">Live Demo</a>
-              <a href="https://github.com/MadhanSharon/login-app" target="_blank" rel="noreferrer">View Code</a>
+              <a href="https://product-post.netlify.app/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a href="https://github.com/MadhanSharon/product-post" target="_blank" rel="noreferrer">View Code</a>
             </div>
           </div>
         </div>
