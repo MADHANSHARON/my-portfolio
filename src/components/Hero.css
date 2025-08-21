@@ -120,7 +120,7 @@
     display: none;
   }
    .para2{
-   display:list-item;
+   display:block;
 }
   .hero-left {
     position: fixed;
