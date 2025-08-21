@@ -113,7 +113,9 @@
     border-radius: 0;
     overflow: hidden;
   }
-
+.contact-btn {
+  display: none;
+}
   .hero-left {
     position: fixed;
     top: 0;
