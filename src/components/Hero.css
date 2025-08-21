@@ -160,11 +160,18 @@
     width: 100%;
     font-size: 14px;
   }
-  .contact-details{
-    z-index: 3;
-    background-color: #424141;
-    color: white;
-  }
+ .contact-details {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background-color: #424141;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
 }
 
 /* 📱 Screens below 900px */
