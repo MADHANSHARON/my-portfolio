@@ -11,7 +11,7 @@
 .hero-card {
   display: flex;
   width: 60%;
-  height: 70vh;
+  height: auto;
   background: white;
   border-radius: 30px;
   overflow: hidden;
