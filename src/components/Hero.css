@@ -160,6 +160,9 @@
     width: 100%;
     font-size: 14px;
   }
+  .contact-details{
+    background-color: #a3a0a0;
+  }
 }
 
 /* 📱 Screens below 900px */
