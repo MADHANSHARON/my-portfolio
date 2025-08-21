@@ -107,7 +107,8 @@
 @media (max-width: 1300px) {
   .hero-card {
     flex-direction: column;
-    width: 110%;
+    width: 100%;
+    padding: 20PX;
     height:auto;
     position: relative;
     border-radius: 0;
