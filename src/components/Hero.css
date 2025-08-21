@@ -104,7 +104,7 @@
 /* ========== Media Queries ========== */
 
 /* 📱 Screens below 1500px */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
   .hero-card {
     flex-direction: column;
     width: 100%;
@@ -147,10 +147,10 @@
     text-align: center;
   }
 
+  
   .hero-right p {
     display: none;
   }
-
   .buttons {
     align-items: center;
   }
