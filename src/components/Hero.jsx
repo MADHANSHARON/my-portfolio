@@ -26,7 +26,7 @@ function Hero() {
           <div className="hero-right">
             <h1>Hi, I’m Madhan Sharon.</h1>
             <p>
-              I’m a Full-Stack Developer with experience in building dynamic,
+              I’m a Full-Stack Developer with strong knowledge in building dynamic,
               responsive, and scalable web applications using the MERN stack.
               I’m passionate about creating impactful software and open to new
               opportunities.
