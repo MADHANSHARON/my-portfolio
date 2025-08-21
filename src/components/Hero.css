@@ -98,7 +98,9 @@
 .contact-details a:hover {
   text-decoration: underline;
 }
-
+.para2{
+  display: none;
+}
 
 
 /* ========== Media Queries ========== */
@@ -114,7 +116,12 @@
     border-radius: 0;
     overflow: hidden;
   }
-
+  .contact-btn{
+    display: none;
+  }
+   .para2{
+   display:list-item;
+}
   .hero-left {
     position: fixed;
     top: 0;
@@ -161,22 +168,9 @@
     font-size: 14px;
   }
  .contact-details {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  margin: 10px;
-  width: 90%;
-  
-  z-index: 3;
-  background-color: #6e6e6e;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
+ display: none;
 }
-.contact-details p{
-  color: white;
-  font-size: 13px;
-}
+
 
 }
 

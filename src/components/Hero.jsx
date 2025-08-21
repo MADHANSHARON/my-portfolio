@@ -31,6 +31,7 @@ function Hero() {
               I’m passionate about creating impactful software and open to new
               opportunities.
             </p>
+            <p className='para2'> I’m a Full-Stack Developer[MERN]</p>
 
             <div className="buttons">
               <Link to="/projects">
