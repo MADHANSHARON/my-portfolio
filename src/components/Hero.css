@@ -161,7 +161,9 @@
     font-size: 14px;
   }
   .contact-details{
-    background-color: #a3a0a0;
+    z-index: 3;
+    background-color: #424141;
+    color: white;
   }
 }
 
