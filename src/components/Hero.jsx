@@ -63,9 +63,9 @@ function Hero() {
               {/* ✅ Contact button toggles section */}
               <button
                 className="contact-btn"
-                onClick={() => setShowContact(!showContact)}
+                onClick={() => scrollToContact}
               >
-                {showContact ? 'Close Contact' : 'Contact'}
+               Contact
               </button>
             </div>
           </div>
