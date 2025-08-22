@@ -5,8 +5,7 @@ import profile from '../assets/madhan1.jpg';
 
 function Hero() {
   const contactRef = useRef(null);
-  const [showContact, setShowContact] = useState(false);
-
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -72,8 +71,7 @@ function Hero() {
         </div>
       </div>
 
-      {/* ✅ Contact Section (shows only when toggled) */}
-      {showContact && (
+      
         <div
           ref={contactRef}
           className="contact-details"
@@ -83,7 +81,7 @@ function Hero() {
           <p>Email: madhansharonv@gmail.com</p>
           <p>Phone: +91 98765 43210</p>
         </div>
-      )}
+      
     </>
   );
 }
